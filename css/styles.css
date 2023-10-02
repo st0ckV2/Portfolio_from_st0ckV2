@@ -1,0 +1,176 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-color: #000;
+}
+
+img{
+    width: 10%;
+}
+
+.Logo{
+    position: relative;
+    margin: 20px;
+    top: 7px;
+}
+
+.Logo-Imagen{
+    width: 50%;
+}
+
+.Logo-Nombre{
+    font-size: 80%;
+    position: absolute;
+    top: 16.5px;
+    left: 6%;
+}
+
+.Menu-Contacto li{
+    position: relative;
+    top: -61px;
+    left: 77%;
+    vertical-align: top;
+    display: inline;
+    size: 20%;
+    color: black;
+    padding: 20px;
+    font-size: 0px;
+
+}
+
+.Logo-Mail{
+    position: relative;
+    width: 27px;
+    height: 30px;
+    top: -2.3px;
+}
+
+.Logo-IG{
+    width: 25px;
+}
+
+.Logo-What{
+    width: 25px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    position: absolute;
+    text-align: right;
+    left: 89%;
+    top:0;
+    width: 150px;
+    top:100px;
+    background:#000;
+    transform: translateX(100%);
+    transition: .4s ease;
+}
+  
+.Opciones li{
+    list-style:none;
+    width: 91%;
+    border-bottom: 1px solid rgba(255,255,255,.5);
+    transform: scaleX(-100px);
+}
+  
+.Opciones a{
+    color:var(--main-color);
+    display: block;
+    line-height:3.5;
+    padding: 0 10px;
+    text-decoration:none;
+    transition:.4s ease;
+}
+  
+.Opciones a:hover{
+    transform:translateX(-10%);
+}
+  
+#boton-nav:checked ~ nav{
+    transform:translateX(0);
+}
+  
+.boton-nav{
+    color:var(--main-color);
+    font-size:30px;
+    position: absolute;
+    left:93%;
+    top:32.5px;
+    cursor:pointer;
+    padding:6.5px 15px;
+    transition:.2s ease;
+    background:rgba(0,0,0,.1);
+}
+  
+.boton-nav:hover{
+    background:rgba(0,0,0,.3);
+}
+
+.Texto-Principal{
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    text-align: center;
+}
+
+.Texto-Secundario1{
+    position: absolute;
+    top: 42%;
+    left: 42%;
+    font-size: 200%;
+}
+
+.Texto-Secundario2{
+    position: absolute;
+    top: 42%;
+    left: 30%;
+    font-size: 200%;
+}
+
+.Texto-Secundario3{
+    position: absolute;
+    top: 42%;
+    left: 10%;
+    font-size: 100%;
+    text-align: center;
+}
+
+.Hola { 
+    position: relative;
+    display: inline-block;
+    font-family: Monaco, Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    font-size: 24px;
+    color: white;
+    min-width: 360px;
+  }
+  
+  .Hola::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 140px;
+    display: inline-block;
+    background-color: #606060;
+    vertical-align: top;
+    width: 10px;
+    height: 24px;
+    -webkit-animation: blink 1s step-end infinite;
+    animation: blink 1s step-end infinite;
+  }
+  
+  @-webkit-keyframes blink {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+  
+  @keyframes blink {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
