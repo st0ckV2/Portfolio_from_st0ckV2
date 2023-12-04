@@ -174,3 +174,25 @@ nav{
     50% { opacity: 0.0; }
     100% { opacity: 1.0; }
   }
+
+  .textteachable{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.buttonteachable{
+    margin-left: 49%;
+    margin-top: 10px;
+}
+
+.Certificado{
+    position: relative;
+    margin-left: 25%;
+    width: 50%;
+}
+
+.Flutter{
+    position: relative;
+    width: 70%;
+    margin-left: 15%;
+}
